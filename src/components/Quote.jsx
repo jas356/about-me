@@ -17,10 +17,10 @@ export default function Quote () {
 
   return (
     <section>
-      <Container onClick={nextQuote} className="quote-container">
-        <Row className="text-center">
+      <Container onClick={nextQuote} className="quote-container"  style={{ backgroundColor: "#010400", opacity: 0.85, borderRadius: '25px', marginTop: '5px', marginBottom: '20px'}}>
+        <Row className="text-center" >
           <Col>
-           <p><q>{quotes[i].saying}</q></p> - {quotes[i].author}
+           <p style={{color: "#fff"}} ><q>{quotes[i].saying}</q></p> <span style={{color: "#fff"}}>- {quotes[i].author}</span>
           </Col>
         </Row>
       </Container>

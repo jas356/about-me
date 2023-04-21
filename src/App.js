@@ -15,7 +15,7 @@ function App() {
      <PictCarousel />
      <Quote />
      <Grid />
-     <Video />
+     {/* <Video /> */}
      <Footer />
     </div>
   );

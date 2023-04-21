@@ -1,18 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
-
-export default function Video () {
-
+import  ReactPlayer  from "react-player";
+export default function Video() {
+  const myVideo = `${process.env.PUBLIC_URL + "/videos/princess.mov"}`;
   return (
     <section>
       <Container className="video-container">
-        <Row>
-          <Col>
+        <Row >
+          <Col className="text-center">
             <h2>Video</h2>
-            <p>Bunnies are great because they were the first to Hop to the Hip, hippidy hop.</p>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pbug3PgchsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>
+              Bunnies are great because they were the first to Hop to the Hip,
+              hippidy hop.
+            </p>
+            <ReactPlayer url={myVideo} controls={true} />
           </Col>
         </Row>
       </Container>
     </section>
-  )
+  );
 }
