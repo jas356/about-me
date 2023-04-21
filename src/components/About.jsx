@@ -11,7 +11,7 @@ const width = 300;
 const height = 400;
 
 const imageList = [
-  `${process.env.PUBLIC_URL + '/images/I.JPG'}`,
+  `${process.env.PUBLIC_URL + '/images/I.jpg'}`,
   `${process.env.PUBLIC_URL + '/images/bg2.jpg'}`,
   `${process.env.PUBLIC_URL + '/images/bg3.jpg'}`,
 ];
@@ -32,7 +32,7 @@ export default function About() {
               width={400}
               height={400}
             />
-            <h1 className="mt-3" style={{color: "#995945"}}>Jasmine Henry</h1>
+            <h1 className="mt-3" style={{color: "#995945"}}>Jasmine Henry</h1><p><small style={{color: "#995945"}}>(Click to change image)</small></p>
           </Col>
 
           <Col>
