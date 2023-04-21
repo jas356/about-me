@@ -42,21 +42,21 @@ export default function About() {
               forms of artistic expression kept me always wanting to learn
               something new in the creativity department.
             </p>
-            <p style={{color: "#000000"}}>
+            <p style={{color: "#000000", fontWeight: 900}}>
               A fun fact about me is that I received acceptance into my high
               school's art Magnet program and gained 4+ years of experience in
               hand-made ceramics, ceramics made on the potter's wheel, and other
               mediums and tools used to create art all while falling in love
               with the passion to CREATE and BUILD.
             </p>
-            <p style={{color: "#000000"}}>
+            <p style={{color: "#000000", fontWeight: 900}}>
               Joining the military right before college was the best decision I
               ever made for myself, and it was a challenging eye-opening
               adventure working in the Nuclear Engineering Department for 5
               years acquiring team building and technical skills acquired in the
               service.
             </p>
-            <p style={{color: "#000000"}}>
+            <p style={{color: "#000000", fontWeight: 900}}>
               Completing my Naval career and while being the owner of my
               Makeup-Artist business for 3+ years while expanding my skills
               looking for more challenges/opportunity and fell in love with
@@ -64,7 +64,7 @@ export default function About() {
               very appreciative for my progress in life, I know my younger self
               would be so proud.
             </p>
-            <p style={{color: "#000000"}}> 
+            <p style={{color: "#000000", fontWeight: 900}}> 
               The one person that always lifts me up, motivates me and keeps me
               on track as A young jack of many trades is my mother and I'm
               forever grateful for the ultimate mentor.
