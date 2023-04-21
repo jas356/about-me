@@ -1,11 +1,15 @@
 body {
   background: linear-gradient(-45deg, #010400, #72DDF7, #FFAFF0, #fff);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 300s ease infinite;
+  background: -webkit-linear-gradient(to right, #ff0099, #493240); 
+  background: linear-gradient(to right, #ff0099, #493240);
+  background-image: url(../public/images/bg1.5.jpg);
+  
 }
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 20% 50%;
   }
   50% {
     background-position: 100% 50%;
@@ -13,7 +17,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} 
 
 
 h1 {
@@ -25,11 +29,16 @@ h2 {
 }
 
 .container {
- padding: 40px 
+padding: 40px; 
+background-color: #8a1c7c;
+background-image: linear-gradient(16deg, #8a1c7c 1%, #FF5ACD 20%, #f367d4 48%, #ffaff0 75%, #ffffff 100%);
+ 
 }
 
-.carousel-container {
+.carousel-container.container {
   padding: 15px;
+  width: 70%;
+  height: 50%;
 } 
 
 .quote-container p {
@@ -42,9 +51,22 @@ h2 {
 }
 
 .grid-container {
-  background-color:salmon;
+  background-image: url(../public/images/bg2.5.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .grid-container h2 {
-  color: white;
+  color: black;
+}
+
+.video .container{
+  text-align: center;
+  position: fixed;
+}
+
+footer section {
+  margin-top: 25px ;
 }

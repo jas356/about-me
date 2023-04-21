@@ -5,6 +5,7 @@ import PictCarousel from "./components/PictCarousel.jsx";
 import Video from "./components/Video.jsx";
 import Footer from "./components/Footer.jsx";
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
      <PictCarousel />
      <Quote />
      <Grid />
-     {/* <Video /> */}
+     <Video />
      <Footer />
     </div>
   );

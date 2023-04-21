@@ -1,16 +1,18 @@
 import { Container, Row, Col } from "react-bootstrap";
+import videoBg from "../assests/design.svg"
 
-export default function HeroBanner () {
+export default function Banner () {
 
   return (
-    <section>
-      <Container fluid className="bg-danger">
-        <Row>
-          <Col className="text-center">
-            Email: myemail@yolo.com
-          </Col>
-        </Row>
-      </Container>
-    </section>
+   <div className="hero">
+    <Container>
+      <Row>
+        <Col>
+          <video src={videoBg} />
+        </Col>
+      </Row>
+    </Container>
+   </div>
+          
   )
 }

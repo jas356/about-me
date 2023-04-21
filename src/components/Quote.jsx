@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const quotes = [
-  { saying: "You have power over your mind - not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius"},
-  { saying: "Evil Never Dies.", author: "Meghann Stamper"},
+  { saying: "Never make someone a priority when all you are to them is an option.", author: "Maya Angelou"},
+  { saying: "There is no greater agony than bearing an untold story inside you.", author: "Maya Angelou"},
   { saying: "Everything comes in the right momment", author: "Jasmine Henry"},
 ]
 
