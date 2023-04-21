@@ -16,14 +16,14 @@ export default function PictCarousel () {
       <Container className="carousel-container">
         <Row>
           <Col className="p-0">
-            <Carousel fade>
+            <Carousel>
               <Carousel.Item>
                 <img src={Image}
                   className="d-block w-100" 
                   alt="slide 1" />
                 <Carousel.Caption>
                 <h2>Fashionista (Me)</h2>
-                  <p>First item are great because they are the first. and I must learn to write better english.</p>
+                  <p>A fun night out</p>
                 </Carousel.Caption>  
               </Carousel.Item>
 
@@ -72,8 +72,8 @@ export default function PictCarousel () {
                   className="d-block w-100" 
                    alt="slide 1" />
                 <Carousel.Caption>
-                <h2>First Item</h2>
-                  <p>First item are great because they are the first. and I must learn to write better english.</p>
+                <h2>Client Soft Glam</h2>
+                  <p></p>
                 </Carousel.Caption> 
               </Carousel.Item>
 
