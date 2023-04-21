@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
      <About />
+     <PictCarousel />
      <Quote />
      <Grid />
-     <PictCarousel />
      <Video />
      <Footer />
     </div>

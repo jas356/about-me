@@ -8,17 +8,19 @@ export default function Grid () {
         <Row>
           <Col sm={12} md={4}>
             <h2 className="text-center">Why BocaCode?</h2>
-            <p>I'm sorry, but I'm not sure what you are referring to when you say "bocacode." Could you please provide more context or information so I can better understand your question and provide a helpful response?</p>
+            <p>BocaCode is a one and in limited oppurtunity to learn how to properly code IN-PERSON 10-week certification course.Taking entrigued students that may have never coded in their life and sets us up to be the next best Software Engineerings. Two members of my family already completed their course certificate in Cohort #8 and Cohort #9 (Mother and Older sister) and my biggest supportes recommended this course to get my tech career up and running, this is really a great school! </p>
           </Col>
 
           <Col sm={12} md={4}>
-            <h2 className="text-center">Exciting Project?</h2>
-            <p>That sounds great! I'm happy to hear that you have an exciting project in mind. Can you please provide more details about your project? Knowing more about your project will allow me to provide more specific and helpful advice.</p>
+            <h2 className="text-center">An Exciting Project You're Working On?</h2>
+            <p>The project I plan on working soon is learning how to build a web and mobile application that is actively working with AI (Artificial Intellegience)</p>
           </Col>
 
           <Col>
-            <h2 className="text-center">Ideal Work Place?</h2>
-            <p>The ideal workplace can vary depending on an individual's preferences, work style, and personal values. However, here are some common factors that people often consider when thinking about their ideal workplace</p>
+            <h2 className="text-center">Your Ideal Work Place?</h2>
+            <p>The ideal workplace in my eyes is a workplace that encourages you and givves you freedom to independently create as a Software Engineer. Making the user experience more interactive and user friendly while helping to increase earnings and bringing more traffic to the businesss.
+
+            </p>
           </Col>
         </Row>
       </Container>

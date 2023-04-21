@@ -10,7 +10,7 @@ export default function Footer () {
       <Container>
         <Row>
           <Col className="text-center">
-            <p>&copy; {currentYear} Your Name
+            <p>&copy; {currentYear} Jasmine Henry
             <br />
             <a href={gitHubUrl} 
               target="_blank"

@@ -1,54 +1,60 @@
 import { useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const randomElement = (array) => {
-  const index = Math.floor(Math.random() * array.length)
-  return array[index]
-}
+  const index = Math.floor(Math.random() * array.length);
+  return array[index];
+};
 
 const imageList = [
-  `https://picsum.photos/300/300/?random=2`,
+  `https://picsum.photos/300/3 00/?random=2`,
   `https://picsum.photos/300/300/?random=4`,
   `https://picsum.photos/300/300/?random=6`,
   `https://picsum.photos/300/300/?random=8`,
-]
-
-const colors = ['red', 'blue', 'black', 'salmon']
-
+];
 
 export default function About() {
   const [imgUrl, setImgUrl] = useState(randomElement(imageList));
-  const [nameColor, setNameColor] = useState(randomElement(colors));
 
-  console.log(nameColor)
   return (
     <main>
       <Container>
         <Row className="text-center">
           <Col sm={12} md={6}>
-            <img src={imgUrl}
-              onClick={() =>
-                setImgUrl(randomElement(imageList))
-              }
-              className="rounded-circle" alt="Profile" />
-            
-            <Button onClick={() => setNameColor(randomElement(colors))}>
-              Change nameColor
-            </Button>
+            <img
+              src={imgUrl}
+              onClick={() => setImgUrl(randomElement(imageList))}
+              className="rounded-circle"
+              alt="Profile"
+            />
+            <h1 className="mt-3">Jasmine Henry</h1>
           </Col>
 
           <Col>
-            <h1 style={{ color: nameColor }} className="mt-3">
-              Your Name
-            </h1>
+            <h1 className="mt-3">About Me</h1>
             <p>
-              If you enjoy using big fonts, you're not alone! There are many
-              reasons why someone might prefer larger text when reading or
-              writing. For example, larger fonts can make text easier to read,
-              especially for people with visual impairments or those who
-              struggle with reading small text. Additionally, big fonts can help
-              draw attention to important information, making it easier to spot
-              and understand.
+              Creativity, art, and learning are all important to me, and I'm
+              always looking for new methods to express myself coming from a
+              artistic background of oil paintings, charcoal drawings, and other
+              forms of artistic expression kept me always wanting to learn
+              something new in the creativity department. A fun fact about me is
+              that I received acceptance into my high school's art Magnet
+              program and gained 4+ years of experience in hand-made ceramics,
+              ceramics made on the potter's wheel, and other mediums and tools
+              used to create art all while falling in love with the passion to
+              CREATE and BUILD. Joining the military right before college was
+              the best decision I ever made for myself, and it was a challenging
+              eye-opening adventure working in the Nuclear Engineering
+              Department for 5 years acquiring team building and technical
+              skills acquired in the service. Completing my Naval career and
+              while being the owner of my Makeup-Artist business for 3+ years
+              while expanding my skills looking for more challenges/opportunity
+              and fell in love with coding and what are can be created writing
+              code. Being that I am very appreciative for my progress in life, I
+              know my younger self would be so proud. The one person that always
+              lifts me up, motivates me and keeps me on track as A young jack of
+              many trades is my mother and I'm forever grateful for the ultimate
+              mentor.
             </p>
           </Col>
         </Row>
