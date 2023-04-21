@@ -11,7 +11,7 @@ export default function Video() {
             <p>
               Created 2022 by Jasmine Henry in Ceramics I
             </p>
-            <ReactPlayer url={myVideo} controls={true} />
+            <ReactPlayer className="video-player" url={myVideo} controls={true} />
           </Col>
         </Row>
       </Container>

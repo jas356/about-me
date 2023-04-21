@@ -6,9 +6,7 @@ const randomElement = (array) => {
   const index = Math.floor(Math.random() * array.length);
   return array[index];
 };
-const myImage = `${process.env.PUBLIC_URL + '/images/bg2.jpg'}`
-const width = 300;
-const height = 400;
+
 
 const imageList = [
   `${process.env.PUBLIC_URL + '/images/I.jpg'}`,
@@ -29,15 +27,15 @@ export default function About() {
               onClick={() => setImgUrl(randomElement(imageList))}
               className="rounded-circle"
               alt="Profile"
-              width={400}
+              width={"auto"}
               height={400}
             />
             <h1 className="mt-3" style={{color: "#995945"}}>Jasmine Henry</h1><p><small style={{color: "#995945"}}>(Click to change image)</small></p>
           </Col>
 
-          <Col>
+          <Col className="about-container">
             <h1 className="mt-3"  style={{color: "#995945"}} >About Me</h1>
-            <p style={{color: "#000000"}}>
+            <p style={{color: "#000000", fontWeight: 900}}>
               Creativity, art, and learning are all important to me, and I'm
               always looking for new methods to express myself coming from a
               artistic background of oil paintings, charcoal drawings, and other
