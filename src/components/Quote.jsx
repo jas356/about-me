@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const quotes = [
   { saying: "Never make someone a priority when all you are to them is an option.", author: "Maya Angelou      (Click to change)"},
   { saying: "There is no greater agony than bearing an untold story inside you.", author: "Maya Angelou"},
-  { saying: "Everything comes in the right momment", author: "Jasmine Henry"},
+  { saying: "Everything comes in the right moment", author: "Jasmine Henry"},
 ]
 
 export default function Quote () {

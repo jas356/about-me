@@ -36,16 +36,16 @@ export default function About() {
           <Col className="about-container">
             <h1 className="mt-3"  style={{color: "#995945"}} >About Me</h1>
             <p style={{color: "#000000", fontWeight: 900}}>
-              Creativity, art, and learning are all important to me, and I'm
-              always looking for new methods to express myself coming from a
+              Creativity, art, and learning are skills very important to me, and I'm
+              always looking for new methods to express myself, coming from a
               artistic background of oil paintings, charcoal drawings, and other
-              forms of artistic expression kept me always wanting to learn
+              forms of artistic expression has kept me always wanting to learn
               something new in the creativity department.
             </p>
             <p style={{color: "#000000", fontWeight: 900}}>
-              A fun fact about me is that I received acceptance into my high
+              A fun fact about me is receiving acceptance into my high
               school's art Magnet program and gained 4+ years of experience in
-              hand-made ceramics, ceramics made on the potter's wheel, and other
+              hand-made ceramics, ceramics made with the potter's wheel, other
               mediums and tools used to create art all while falling in love
               with the passion to CREATE and BUILD.
             </p>
@@ -59,8 +59,8 @@ export default function About() {
             <p style={{color: "#000000", fontWeight: 900}}>
               Completing my Naval career and while being the owner of my
               Makeup-Artist business for 3+ years while expanding my skills
-              looking for more challenges/opportunity and fell in love with
-              coding and what are can be created writing code. Being that I am
+              looking for more challenges/opportunity, fell in love with
+              coding and what can be created writing code. Being that I am
               very appreciative for my progress in life, I know my younger self
               would be so proud.
             </p>
