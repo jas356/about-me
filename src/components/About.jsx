@@ -53,14 +53,14 @@ export default function About() {
               Joining the military right before college was the best decision I
               ever made for myself, and it was a challenging eye-opening
               adventure working in the Nuclear Engineering Department for 5
-              years acquiring team building and technical skills acquired in the
+              years acquiring team building and technical skills while in the
               service.
             </p>
             <p style={{color: "#000000", fontWeight: 900}}>
-              Completing my Naval career and while being the owner of my
-              Makeup-Artist business for 3+ years while expanding my skills
-              looking for more challenges/opportunity, fell in love with
-              coding and what can be created writing code. Being that I am
+              Completing my Naval career while being the owner of my
+              Makeup-Artist business for 3+ years and expanding my skills.
+              Also looking for more challenges/opportunity, fell in love with
+              coding and was interested by what can be created writing code. Being that I am
               very appreciative for my progress in life, I know my younger self
               would be so proud.
             </p>
